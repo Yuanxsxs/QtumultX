@@ -1,0 +1,5 @@
+- 玖妹订阅:`https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Icon_JiuMei-icon_quanX.json`
+- Semporia订阅:`https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Semporia.json`
+- Accommodation订阅：`https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Accommodation.json`
+- 小鲨鱼订阅:`https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Shark.json`
+- carton-icon订阅:`https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Carton-icon.json`

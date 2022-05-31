@@ -1,0 +1,18 @@
+{
+ "name":"Self-use-icon",
+ "description":"Made by Yuanxsxs",
+ "icons":[
+  {
+   "name":"dinosaur.png",
+   "url":"https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Self-use-icon/dinosaur.png"
+  },
+  {
+   "name":"piao.png",
+   "url":"https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Self-use-icon/piao.png"
+  },
+  {
+   "name":"wuhu.png",
+   "url":"https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Self-use-icon/wuhu.png"
+  }
+ ]
+}

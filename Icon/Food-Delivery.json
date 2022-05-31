@@ -1,0 +1,206 @@
+{
+ "name":"Food-Delivery",
+ "description":"Made by Semporia",
+ "icons":[
+  {
+   "name":"24_Hours.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/24_Hours.png"
+  },
+  {
+   "name":"Burger.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Burger.png"
+  },
+  {
+   "name":"Cashless_Payment.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Cashless_Payment.png"
+  },
+  {
+   "name":"Checkout.orig.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Checkout.orig.png"
+  },
+  {
+   "name":"Checkout.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Checkout.png"
+  },
+  {
+   "name":"Chicken_Bucket.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Chicken_Bucket.png"
+  },
+  {
+   "name":"Coffee_Cups.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Coffee_Cups.png"
+  },
+  {
+   "name":"Coffee_Shop.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Coffee_Shop.png"
+  },
+  {
+   "name":"Courier.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Courier.png"
+  },
+  {
+   "name":"Customer_Service.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Customer_Service.png"
+  },
+  {
+   "name":"Deliver.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Deliver.png"
+  },
+  {
+   "name":"Delivery.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Delivery.png"
+  },
+  {
+   "name":"Delivery_Bike.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Delivery_Bike.png"
+  },
+  {
+   "name":"Delivery_Courier.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Delivery_Courier.png"
+  },
+  {
+   "name":"Delivery_Man.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Delivery_Man.png"
+  },
+  {
+   "name":"Delivery_Truck.orig.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Delivery_Truck.orig.png"
+  },
+  {
+   "name":"Delivery_Truck.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Delivery_Truck.png"
+  },
+  {
+   "name":"Discount_Voucher.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Discount_Voucher.png"
+  },
+  {
+   "name":"Door_Delivery.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Door_Delivery.png"
+  },
+  {
+   "name":"Fast_Food.orig.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Fast_Food.orig.png"
+  },
+  {
+   "name":"Fast_Food.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Fast_Food.png"
+  },
+  {
+   "name":"Food_Delivery.orig 2.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Food_Delivery.orig 2.png"
+  },
+  {
+   "name":"Food_Delivery.orig 3.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Food_Delivery.orig 3.png"
+  },
+  {
+   "name":"Food_Delivery.orig 4.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Food_Delivery.orig 4.png"
+  },
+  {
+   "name":"Food_Delivery.orig 5.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Food_Delivery.orig 5.png"
+  },
+  {
+   "name":"Food_Delivery.orig 6.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Food_Delivery.orig 6.png"
+  },
+  {
+   "name":"Food_Delivery.orig 7.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Food_Delivery.orig 7.png"
+  },
+  {
+   "name":"Food_Delivery.orig 8.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Food_Delivery.orig 8.png"
+  },
+  {
+   "name":"Food_Delivery.orig.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Food_Delivery.orig.png"
+  },
+  {
+   "name":"Food_Delivery.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Food_Delivery.png"
+  },
+  {
+   "name":"Food_Pack.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Food_Pack.png"
+  },
+  {
+   "name":"Food_Tray.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Food_Tray.png"
+  },
+  {
+   "name":"French_Fries.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/French_Fries.png"
+  },
+  {
+   "name":"Online_Order.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Online_Order.png"
+  },
+  {
+   "name":"Online_Store.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Online_Store.png"
+  },
+  {
+   "name":"Order_Food.orig 2.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Order_Food.orig 2.png"
+  },
+  {
+   "name":"Order_Food.orig 3.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Order_Food.orig 3.png"
+  },
+  {
+   "name":"Order_Food.orig 4.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Order_Food.orig 4.png"
+  },
+  {
+   "name":"Order_Food.orig.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Order_Food.orig.png"
+  },
+  {
+   "name":"Order_Food.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Order_Food.png"
+  },
+  {
+   "name":"Pizza.orig.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Pizza.orig.png"
+  },
+  {
+   "name":"Pizza.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Pizza.png"
+  },
+  {
+   "name":"Rating.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Rating.png"
+  },
+  {
+   "name":"Restaurant.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Restaurant.png"
+  },
+  {
+   "name":"Rice.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Rice.png"
+  },
+  {
+   "name":"Shopping_Cart.orig.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Shopping_Cart.orig.png"
+  },
+  {
+   "name":"Shopping_Cart.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Shopping_Cart.png"
+  },
+  {
+   "name":"Smartphone.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Smartphone.png"
+  },
+  {
+   "name":"Soft_Drink.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Soft_Drink.png"
+  },
+  {
+   "name":"Tracking.png",
+   "url":"https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Food-Delivery/Tracking.png"
+  }
+ ]
+}
