@@ -15,7 +15,10 @@ def main(url,title = 'QxIcon',description='Collect by Yuanxsxs'):
         'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
         'Connection': 'close',
     }
-    res=requests.get(url,headers=headers,timeout= 5)
+    try :
+        res=requests.get(url,headers=headers,timeout= 5)
+    except :
+        print('连接超时请重试！')
     content=re.findall('(?<= title=").*?PNG|(?<= title=").*?png',res.content.decode('utf-8'))
     # print(len(content),content)
     quanXicon = {
