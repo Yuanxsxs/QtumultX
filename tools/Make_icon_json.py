@@ -1,6 +1,7 @@
-import re,json
+import re,json,os
 import requests
-url = input('请输入仓库链接(png所在的页面):')
+from operate_picture import specialprint as sprint
+url = input('请输入仓库链接(仅含有png的网页面):')
 title = re.findall('.*/(.*?)$',url)[0]#标题
 file = re.sub('/','_',title) +'.json'
 auth = re.search('(?<=com/).*?(?=/)',url).group()#作者
@@ -32,8 +33,9 @@ def main(url,title = 'QxIcon',description='Collect by Yuanxsxs'):
             "url" : raw + '/' + item
         }
         quanXicon['icons'].append(con)
-    with open(f'Icon/{file}','w') as f:
+    with open(f'{file}','w') as f:
         content = json.dumps(quanXicon,indent=1,separators=(',',':'))
         f.write(content)
-    print(f'订阅文件已生成,\n作者:{auth},\n描述:{description}')
+    sprint(f'订阅文件已生成,\n作者:{auth},\n描述:{description}\n保存在\'{os.getcwd()}\{file}\'')
+    sprint('请自行将该文件上传到GitHub并获取到相应raw得到订阅链接,导入qx即大功告成!')
 main(url,title = title,description=f'Made by {auth}')
