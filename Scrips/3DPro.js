@@ -7,9 +7,10 @@ unlock Shapr:3D PRO
 5.214.0.4058 #1c6d065d
 
 [rewrite_local]
-# unlock Shapr3D
+# unlock Shapr3D local
 ^https?:\/\/prod\.api\.shapr3d\.com\/user-management\/profile-with-device url script-response-body Shapr3D.js
-
+# unlock Shapr3D remote
+^https?:\/\/prod\.api\.shapr3d\.com\/user-management\/profile-with-device url script-response-body https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Quantumult_X_Crack/3DPro.js
 [mitm]
 hostname = api.pxmage.com,
 
