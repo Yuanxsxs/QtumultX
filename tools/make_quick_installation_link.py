@@ -6,7 +6,7 @@ from urllib.parse import quote
 def Output(raw,tag = "Yuan's Selfuse Rewrite"):
     '''raw = https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Rewrite/Crack/Ego_reader.conf'''
     
-    set = re.search("^https?:\/\/raw\.githubusercontent\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.[(conf)|(snnipet)|(txt)]",raw)
+    set = re.search("^https?:\/\/raw\.githubusercontent\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.[(conf)|(snnipet)|(txt)(json)]",raw)
     tag = set.group('tag') + '-' + set.group("author")
     txt = f'''{{"rewrite_remote":["{raw}?raw=true,tag={tag}"]}}'''
     cont_enquoted = quote(txt,encoding='utf-8')
@@ -15,7 +15,7 @@ def Output(raw,tag = "Yuan's Selfuse Rewrite"):
     return url
 def main():
     raw = pyperclip.paste()
-    research = re.search("^https?:\/\/raw\.githubusercontent\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.[(conf)|(snnipet)|(txt)]",raw)
+    research = re.search("^https?:\/\/raw\.githubusercontent\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.[(conf)|(snnipet)|(txt)(json)]",raw)
     if research == None:
         raw = input('请复制正确的raw链接并输入在下方:\n')
     output = Output(raw)
