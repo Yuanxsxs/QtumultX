@@ -6,7 +6,7 @@ from urllib.parse import quote
 def Output(raw,tag = "Yuan's Selfuse Rewrite"):
     '''raw = https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Rewrite/Crack/Ego_reader.conf'''
     
-    set = re.search("^https?:\/\/raw\.githubusercontent\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.[(conf)|(snnipet)]",raw)
+    set = re.search("^https?:\/\/raw\.githubusercontent\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.[(conf)|(snnipet)|(txt)]",raw)
     tag = set.group('tag') + '-' + set.group("author")
     txt = f'''{{"rewrite_remote":["{raw}?raw=true,tag={tag}"]}}'''
     cont_enquoted = quote(txt,encoding='utf-8')
