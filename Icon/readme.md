@@ -1,4 +1,4 @@
-- [玖妹订阅](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX%5C/master/Icon/JiuMei-icon/qxicon.json%22%5D)
+- [玖妹订阅](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX%5C/master/Icon/JiuMei-icon/JiuMei-icon.json%22%5D)
 - [Semporia订阅](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX%5C/master/Icon/Semporia.json%22%5D)
 - [Accommodation订阅](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Accommodation.json%29%EF%BC%9A%60https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Accommodation.json%22%5D)
 - [小鲨鱼订阅](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX%5C/master/Icon/Accommodation.json%22%5D)
