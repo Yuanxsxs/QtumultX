@@ -25,15 +25,15 @@ def main():
     research = re.search("^https?:\/\/raw\.githubusercontent\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.(conf|snippet|txt|json|js|list)$",raw)
     # print(research)
     if research == None:
-        '''https://github.com/Yuanxsxs/QtumultX/blob/master/Rewrite/AD_block/Cuttfish/StartUp.conf'''
-        url = re.search('^https?:\/\/github\.com/(?P<author>.*?)\/.*\/blob\/.*\.(conf|snippet|txt|json|js|list)$',raw)
+        '''https://github.com/Yuanxsxs/QtumultX/(blob|raw)/master/Rewrite/AD_block/Cuttfish/StartUp.conf'''
+        url = re.search('^https?:\/\/github\.com/(?P<author>.*?)\/.*\/(blob|raw)\/.*\.(conf|snippet|txt|json|js|list)$',raw)
         if url ==  None:
             raw = input('请复制正确的raw链接并输入在下方:\n')
         else:
             url = url.group()
             print('虽然不是正确的raw,但问题不大.')
             url = re.sub("github.com","raw.githubusercontent.com",url)
-            raw = re.sub("\/blob","",url)
+            raw = re.sub("\/(blob|raw)\/","\/",url)
         # print(raw)        
     output = Output(raw)
     pyperclip.copy(output)
