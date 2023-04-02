@@ -6,20 +6,27 @@ from urllib.parse import quote
 def Output(raw,tag = "Yuan's Selfuse Rewrite"):
     '''raw = https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Rewrite/Crack/Ego_reader.conf'''
     
-    set = re.search("^https?:\/\/raw\.githubusercontent\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.(conf|snippet|txt|json|js)$",raw)
-    tag = set.group('tag') + '-' + set.group("author")
-    txt = f'''{{"rewrite_remote":["{raw}?raw=true,tag={tag}"]}}'''
-    cont_enquoted = quote(txt,encoding='utf-8')
+    resarch = re.search("^https?:\/\/raw\.githubusercontent\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.(?P<suffix>(conf|snippet|txt|json|js|list))$",raw)
     
-    url = "https://api.boxjs.app/quanx/add-resource?remote-resource=" + cont_enquoted
+    tag = resarch.group('tag') + '-' + resarch.group("author")#显示标签
+    suffix =  resarch.group('suffix')#选出后缀来决定添加的资源
+    if suffix in ['json'] :#还要分是task 还是 icon 但是现在暂时只考虑icon
+        txt = f'''["{raw}"]'''
+        url = "quantumult-x:///ui?module=gallery&type=icon&action=add&content=" + quote(txt,encoding='utf-8')
+    else :
+        if suffix in ['conf','snippet']:
+            txt = f'''{{"rewrite_remote":["{raw}?raw=true,tag={tag}"]}}'''
+        if suffix in ['txt','list']:
+            txt = f'''{{"filter_remote":["{raw}?raw=true,tag={tag}"]}}'''
+        url = "https://quantumult.app/x/open-app/add-resource?remote-resource=" + quote(txt,encoding='utf-8')
     return url
 def main():
     raw = pyperclip.paste()
-    research = re.search("^https?:\/\/raw\.githubusercontent\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.(conf|snippet|txt|json|js)$",raw)
+    research = re.search("^https?:\/\/raw\.githubusercontent\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.(conf|snippet|txt|json|js|list)$",raw)
     # print(research)
     if research == None:
         '''https://github.com/Yuanxsxs/QtumultX/blob/master/Rewrite/AD_block/Cuttfish/StartUp.conf'''
-        url = re.search('^https?:\/\/github\.com/(?P<author>.*?)\/.*\/blob\/.*\.(conf|snippet|txt|json|js)$',raw).group()
+        url = re.search('^https?:\/\/github\.com/(?P<author>.*?)\/.*\/blob\/.*\.(conf|snippet|txt|json|js|list)$',raw).group()
         
         if url ==  None:
             raw = input('请复制正确的raw链接并输入在下方:\n')
