@@ -1,4 +1,4 @@
-import re , pyperclip
+import re , pyperclip,time
 from urllib.parse import quote
 ''' pyperclip 为第三方库 使用 pip install pyperclip 进行安装
     
@@ -37,6 +37,7 @@ def main():
         # print(raw)        
     output = Output(raw)
     pyperclip.copy(output)
-    print(f'一键安装链接:\n{output}\n已复制!')
+    print(f'一键安装链接:\n{output}\n已复制!两秒后自动关闭')
+    time.sleep(2)
 if __name__ == '__main__':
     main()
