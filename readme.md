@@ -14,4 +14,4 @@
 ##　👀图标
 |项目|一键安装|
 |:---:|:---:|
-|[玖妹订阅](https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Icon_JiuMei-icon_quanX.json)|[一键导入](quantumult-x:///ui?module=gallery&type=icon&action=add&content=%5B%22https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Icon_JiuMei-icon_quanX.json%22%5D)|
+|[玖妹订阅](https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Icon_JiuMei-icon_quanX.json)|[一键导入](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/Icon_JiuMei-icon_quanX.json%22%5D)|
