@@ -12,7 +12,7 @@ def Output(raw,tag = "Yuan's Selfuse Rewrite"):
     suffix =  resarch.group('suffix')#选出后缀来决定添加的资源
     if suffix in ['json'] :#还要分是task 还是 icon 但是现在暂时只考虑icon
         txt = f'''["{raw}"]'''
-        url = "quantumult-x:///ui?module=gallery&type=icon&action=add&content=" + quote(txt,encoding='utf-8')
+        url = "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=" + quote(txt,encoding='utf-8')
     else :
         if suffix in ['conf','snippet']:
             txt = f'''{{"rewrite_remote":["{raw}?raw=true,tag={tag}"]}}'''
