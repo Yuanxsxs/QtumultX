@@ -24,7 +24,7 @@ def Output(url,tag = "Yuan's Selfuse Rewrite"):
     suffix =  rawre.group('suffix')#选出后缀来决定添加的资源
     if suffix in ['json'] :#还要分是task 还是 icon 但是现在暂时只考虑icon
         txt = f'''["{raw}"]'''
-        url = "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=" + quote(txt,encoding='utf-8')
+        quick_install_url = "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=" + quote(txt,encoding='utf-8')
     else :
         if suffix in ['conf','snippet','qxrewrite','js']:
             txt = f'''{{"rewrite_remote":["{raw}?raw=true,tag={tag}"]}}'''
@@ -38,11 +38,12 @@ def subFunc(search):
     print(f'{f}\n变成\n{n}')
     return n
 if __name__ == '__main__':
-    with open("README.md","r",encoding="utf-8") as f:
+    file = "./icon/readme.md"
+    with open(file,"r",encoding="utf-8") as f:
         cont = f.read()
 
     pattern = re.compile('https?:\/\/(raw\.|gist\.)?(githubusercontent|github)\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*?)\.(?P<suffix>(conf|snippet|txt|json|js|list|qxrewrite))')
     cont = re.sub(pattern, subFunc ,cont)
 
-    with open("README.md","w",encoding="utf-8") as f:
+    with open(file,"w",encoding="utf-8") as f:
         f.write(cont)
