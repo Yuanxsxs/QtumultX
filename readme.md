@@ -1,6 +1,8 @@
 # 自用Qx配置
 
 ---
+绝大多数收集自各个大佬的库,导入qx的时候会显示作者
+
 ## [✏️重写](https://github.com/Yuanxsxs/QtumultX/tree/master/Rewrite)
 
 |项目|一键安装|
@@ -12,6 +14,7 @@
 |:---:|:---:|
 |[自用分流](https://github.com/Yuanxsxs/QtumultX/blob/master/Filter/myself.txt)|[一键安装](https://api.boxjs.app/quanx/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Filter/myself.txt%3Fraw%3Dtrue%2Ctag%3Dmyself-Yuanxsxs%22%5D%7D)|
 |[OpenAi](https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Rule/OpenAI.list)|[一键安装](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%5B%22https%3A//gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Rule/OpenAI.list%3Fraw%3Dtrue%2Ctag%3DOpenAI-lodepuly%22%5D%7D)|
+|[Microsoft](https://github.com/zqzess/rule_for_quantumultX/blob/master/QuantumultX/rules/Microsoft.list)|[一键安装](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%5B%22https%3A//raw.githubusercontent.com/zqzess/rule_for_quantumultX%5C/master/QuantumultX/rules/Microsoft.list%3Fraw%3Dtrue%2Ctag%3DMicrosoft-zqzess%2Cforce-policy%3DMicrosoft%2C%20update-interval%3D172800%2Copt-parser%3Dtrue%22%5D%7D)|
 
 ---
 ## [👀图标](https://github.com/Yuanxsxs/QtumultX/tree/master/Icon)
