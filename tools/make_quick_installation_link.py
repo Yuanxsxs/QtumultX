@@ -6,7 +6,7 @@ from urllib.parse import quote
 def Output(raw,tag = "Yuan's Selfuse Rewrite"):
     '''raw = https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Rewrite/Crack/Ego_reader.conf'''
     
-    resarch = re.search("^https?:\/\/raw\.githubusercontent\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.(?P<suffix>(conf|snippet|txt|json|js|list|qxrewrite))$",raw)
+    resarch = re.search("^https?:\/\/(raw\.githubusercontent|gitlab)\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.(?P<suffix>(conf|snippet|txt|json|js|list|qxrewrite))$",raw)#必须是raw
     
     tag = resarch.group('tag') + '-' + resarch.group("author")#显示标签
     suffix =  resarch.group('suffix')#选出后缀来决定添加的资源
@@ -22,11 +22,11 @@ def Output(raw,tag = "Yuan's Selfuse Rewrite"):
     return url
 def main():
     raw = pyperclip.paste()
-    research = re.search("^https?:\/\/raw\.githubusercontent\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.(conf|snippet|txt|json|js|list|qxrewrite)$",raw)
+    research = re.search("^https?:\/\/(raw\.githubusercontent|gitlab)\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.(conf|snippet|txt|json|js|list|qxrewrite)$",raw)#必须是raw
     # print(research)
     if research == None:
         '''https://github.com/Yuanxsxs/QtumultX/(blob|raw)/master/Rewrite/AD_block/Cuttfish/StartUp.conf'''
-        url = re.search('^https?:\/\/github\.com/(?P<author>.*?)\/.*\/(blob|raw)\/.*\.(conf|snippet|txt|json|js|list|qxrewrite)$',raw)
+        url = re.search('^https?:\/\/github\.com/(?P<author>.*?)\/.*\/(blob|raw)\/.*\.(conf|snippet|txt|json|js|list|qxrewrite)$',raw)#可转化为raw的url
         if url ==  None:
             raw = input('请复制正确的raw链接并输入在下方:\n')
         else:
