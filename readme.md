@@ -30,17 +30,20 @@
 
     用来制作qx一键导入链接的工具,支持机场订阅,图标订阅,分流规则,重写规则,默认开启资源解析器,资源更新为48hours
 
+  
+  - ##### 原理
+  
+    [Quantumult-X/url-scheme.md at master/crossutility/Quantumult-X (github.com)](https://github.com/crossutility/Quantumult-X/blob/master/url-scheme.md)
+  
   - ##### 准备
-
+  
     安装依赖:```
     pip install pyperclip```    
-    
-
+  
   - ##### 使用
-
+  
     1. 复制机分流规则,重写规则,图标订阅链接的raw值 例如 [GitHub的分流raw链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GitHub/GitHub.list),或者文件所在位置 例如 [GitHub](https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/GitHub/GitHub.list).
     2. 直接运行此脚本,不需要额外操作,待脚本运行结束,一键导入qx链接就已复制在剪切板.
-
-    
   
+    
 
