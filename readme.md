@@ -42,7 +42,7 @@
   
   - ##### 使用
   
-    1. 复制机分流规则,重写规则,图标订阅链接的raw值 例如 [GitHub的分流raw链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GitHub/GitHub.list),或者文件所在位置 例如 [GitHub](https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/GitHub/GitHub.list).
+    1. 复制机分流规则,重写规则,图标订阅链接的raw值 例如 [GitHub的分流raw链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GitHub/GitHub.list),或者文件所在位置 例如 [GitHub的分流规则](https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/GitHub/GitHub.list).
     2. 直接运行此脚本,不需要额外操作,待脚本运行结束,一键导入qx链接就已复制在剪切板.
   
     
