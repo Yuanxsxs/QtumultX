@@ -34,7 +34,7 @@ def Output(raw,tag = "Yuan's Selfuse Rewrite",opt_parser = "true",update_interva
             raw = re.sub("\/(blob|raw)\/","\/",url)
             
     resarch = re.search(pattern_raw,raw)
-    tag = resarch.group('tag') + '-' + resarch.group("author")#显示标签
+    tag = resarch.group('tag') + '@' + resarch.group("author")#显示标签
     suffix =  resarch.group('suffix')#选出后缀来决定添加的资源
     if suffix in ['json'] :#还要分是task 还是 icon 但是现在暂时只考虑icon
         txt = f'''["{raw}"]'''
