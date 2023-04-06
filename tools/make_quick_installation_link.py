@@ -48,7 +48,7 @@ def Output(raw,tag = "Yuan's Selfuse Rewrite",opt_parser = "true",update_interva
             url = "https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=" + quote(txt,encoding='utf-8')
 
     else :
-        if suffix in ['conf','snippet','qxrewrite']:
+        if suffix in ['conf','snippet','qxrewrite','js']:
             txt = f'''{{"rewrite_remote":["{raw}?raw=true,tag={tag}, update-interval={update_interval},opt-parser={opt_parser}"]}}'''
             print('重写规则',end='')
         if suffix in ['txt','list']:
