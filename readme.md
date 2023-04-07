@@ -16,6 +16,8 @@
 |[自用分流](https://github.com/Yuanxsxs/QtumultX/blob/master/Filter/myself.txt)|[一键安装](https://api.boxjs.app/quanx/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Filter/myself.txt%3Fraw%3Dtrue%2Ctag%3Dmyself-Yuanxsxs%22%5D%7D)|
 |[OpenAi](https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Rule/OpenAI.list)|[一键安装](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%5B%22https%3A//gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Rule/OpenAI.list%3Fraw%3Dtrue%2Ctag%3DOpenAI-lodepuly%2Cforce-policy%3DOpenAI%2C%20update-interval%3D172800%2Copt-parser%3Dtrue%22%5D%7D)|
 |[Microsoft](https://github.com/zqzess/rule_for_quantumultX/blob/master/QuantumultX/rules/Microsoft.list)|[一键安装](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%5B%22https%3A//raw.githubusercontent.com/zqzess/rule_for_quantumultX%5C/master/QuantumultX/rules/Microsoft.list%3Fraw%3Dtrue%2Ctag%3DMicrosoft-zqzess%2Cforce-policy%3DMicrosoft%2C%20update-interval%3D172800%2Copt-parser%3Dtrue%22%5D%7D)|
+|[Apple@zqzess](https://github.com/zqzess/rule_for_quantumultX/blob/master/QuantumultX/rules/Apple.list)|[一键安装](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%5B%22https%3A//raw.githubusercontent.com/zqzess/rule_for_quantumultX%5C/master/QuantumultX/rules/Apple.list%3Fraw%3Dtrue%2Ctag%3DApple%40zqzess%2Cforce-policy%3DApple%2C%20update-interval%3D172800%2Copt-parser%3Dtrue%22%5D%7D)|
+
 
 ---
 ## [👀图标](https://github.com/Yuanxsxs/QtumultX/tree/master/Icon)
@@ -49,5 +51,3 @@
     1. 复制机分流规则,重写规则,图标订阅链接的raw值 例如 [GitHub的分流raw链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GitHub/GitHub.list),或者文件所在位置 例如 [GitHub的分流规则](https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/GitHub/GitHub.list).
     2. 直接运行此脚本,不需要额外操作,待脚本运行结束,一键导入qx链接就已复制在剪切板.
   
-    
-
