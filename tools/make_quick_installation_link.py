@@ -7,13 +7,13 @@ from urllib.parse import quote
 pattern_raw = "^https?:\/\/(raw\.githubusercontent|gist\.githubusercontent|gitlab)\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.(?P<suffix>(conf|snippet|txt|json|js|list|qxrewrite))$"
 pattern_like_raw ='^https?:\/\/github\.com/(?P<author>.*?)\/.*\/(blob|raw)\/.*\.(conf|snippet|txt|json|js|list|qxrewrite).*'#可转化为raw的似raw非rawurl
 
-def Output(raw,tag = "Yuan's Selfuse Rewrite",opt_parser = "true",update_interval = "172800"):    
+def Output(raw,tag = "Yuan's Selfuse Rewrite",opt_parser = "true",update_interval = "172800",markdown = True):    
     '''
        添加的资源默认开启资源解析器 资源更新时间为24hours
        raw = https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Rewrite/Crack/Ego_reader.conf
        raw = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Tool/Loon/Rule/OpenAI.list
     '''
-
+    url_origin = raw
     resarch = re.search(pattern_raw,raw)#必须是raw
     if resarch == None:#当输入的不是raw时
         resarch = re.search(pattern_like_raw,raw)#判断是不是类raw链接
@@ -55,6 +55,8 @@ def Output(raw,tag = "Yuan's Selfuse Rewrite",opt_parser = "true",update_interva
             txt = f'''{{"filter_remote":["{raw}?raw=true,tag={tag},force-policy={resarch.group('tag')}, update-interval={update_interval},opt-parser={opt_parser}"]}}'''
             print('分流规则',end='')
         url = "https://quantumult.app/x/open-app/add-resource?remote-resource=" + quote(txt,encoding='utf-8')
+    if markdown :
+        url =f'''|[{tag}]({url_origin})|[一键安装]({url})|'''
     return url
 def main():
     raw = pyperclip.paste()       
