@@ -22,7 +22,7 @@
 
 ---
 ## [👀图标](https://github.com/Yuanxsxs/QtumultX/tree/master/Icon)
-
+点此查看预览👆
 |项目|一键导入|项目|一键导入|
 |:---:|:---:|:---:|:---:|
 |[玖妹订阅](https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/JiuMei-icon/JiuMei-icon.json)|[一键导入](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX%5C/master/Icon/JiuMei-icon/JiuMei-icon.json%22%5D)|[Food-Delivery](https://github.com/Yuanxsxs/QtumultX/blob/master/Icon/Food-Delivery.json)|[一键导入](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX%5C/master/Icon/Food-Delivery.json%22%5D)|
