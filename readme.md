@@ -9,6 +9,7 @@
 |:---:|:---:|
 |[自用重写去广告](https://github.com/Yuanxsxs/QtumultX/raw/master/Rewrite/AD_block/Self_use_Adblock.snippet)|[一键安装](https://api.boxjs.app/quanx/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Rewrite/AD_block/Self_use_Adblock.snippet%3Fraw%3Dtrue%2Ctag%3DSelf_use_Adblock-Yuanxsxs%22%5D%7D)|
 |[spotify@app2smile](https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf)|[一键安装](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A//raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf%3Fraw%3Dtrue%2Ctag%3Dspotify%40app2smile%2C%20update-interval%3D172800%2Copt-parser%3Dtrue%22%5D%7D)|
+|[PicsewProCrack@yqc007](https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js)|[一键安装](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A//raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js%3Fraw%3Dtrue%2Ctag%3DPicsewProCrack%40yqc007%2C%20update-interval%3D172800%2Copt-parser%3Dtrue%22%5D%7D)|
 ---
 ## [🍴分流](https://github.com/Yuanxsxs/QtumultX/tree/master/Filter)
 |项目|一键安装|
