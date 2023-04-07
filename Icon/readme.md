@@ -1,5 +1,5 @@
 - [玖妹订阅](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX%5C/master/Icon/JiuMei-icon/JiuMei-icon.json%22%5D)
-![玖妹订阅](./Preview/JiuMei.jpg "玖妹订阅")
+![玖妹订阅](./Preview/JiuMei.PNG "玖妹订阅")
 - |[Cute@tugepaopao](https://raw.githubusercontent.com/tugepaopao/Image-Storage/master/other/Cute.json)|[一键安装](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A//raw.githubusercontent.com/tugepaopao/Image-Storage/master/other/Cute.json%22%5D)|
 ![Cute@tugepaopao](./Preview/Cute%40tugepaopao.PNG "Cute@tugepaopao")
 - |[QuantumultX_ICON@hellcell](https://github.com/Yuanxsxs/QtumultX/blob/master/Icon/hellcell/QuantumultX_ICON.json)|[一键安装](https://quantumult.app/x/open-app/ui?module=gallery&type=icon&action=add&content=%5B%22https%3A//raw.githubusercontent.com/Yuanxsxs/QtumultX%5C/master/Icon/hellcell/QuantumultX_ICON.json%22%5D)|
