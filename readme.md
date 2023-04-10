@@ -52,4 +52,35 @@
   
     1. 复制机分流规则,重写规则,图标订阅链接的raw值 例如 [GitHub的分流raw链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/GitHub/GitHub.list),或者文件所在位置 例如 [GitHub的分流规则](https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/GitHub/GitHub.list).
     2. 直接运行此脚本,不需要额外操作,待脚本运行结束,一键导入qx链接就已复制在剪切板.
-  
+
+- **[make_icon_json_l](https://github.com/Yuanxsxs/QtumultX/blob/master/tools/make_icon_json_l.py)**
+
+  - **简介**
+
+    将一组照片变成qx的订阅图标
+
+  - **准备**
+
+    1. 有一个GitHub远程仓库
+
+    2. 配置好代码中的author,file_name_remote ,branch
+
+       author是你的GitHub用户名
+
+       file_name_remote  是你的远程仓库名
+
+       branch 是分支名
+
+    3. 一个存放图标组的文件夹
+
+  - **使用**
+
+    1. 运行脚本,选择准备好的文件夹,等待脚本运行结束.
+    2. **git push! git push! git push!**
+    3. 点击生成的一键导入链接进行导入
+
+  - **注意**
+
+    此脚本在初始版本,或多或少会有问题,如有问题请自行更改代码以适应自己的需求,或提issue,或与我联系[@Yuanxsxs](https://t.me/Yuan_xsxs)
+
+    或准备好一组图标,我帮你制作.
