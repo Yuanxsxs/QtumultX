@@ -5,7 +5,7 @@ from urllib.parse import quote
     谁用谁知道真的好用
 '''
 pattern_raw = "^https?:\/\/(raw\.githubusercontent|gist\.githubusercontent|gitlab)\.com\/(?P<author>.*?)\/.*\/(?P<tag>.*)\.(?P<suffix>(conf|snippet|txt|json|js|list|qxrewrite))$"
-pattern_like_raw ='^https?:\/\/github\.com/(?P<author>.*?)\/.*\/(blob|raw)\/.*\.(conf|snippet|txt|json|js|list|qxrewrite).*'#可转化为raw的似raw非rawurl
+pattern_like_raw ='^https?:\/\/github\.com/(?P<author>.*?)\/.*\/(blob|raw|tree)\/.*\.(conf|snippet|txt|json|js|list|qxrewrite).*'#可转化为raw的似raw非rawurl
 
 def Output(raw,tag = "Yuan's Selfuse Rewrite",opt_parser = "true",update_interval = "172800",markdown = True):    
     '''
@@ -31,7 +31,7 @@ def Output(raw,tag = "Yuan's Selfuse Rewrite",opt_parser = "true",update_interva
             sys.exit()
         else: #当url为类raw链接时 转化为raw链接
             url = re.sub("github.com","raw.githubusercontent.com",raw)
-            raw = re.sub("\/(blob|raw)\/","\/",url)
+            raw = re.sub("\/(blob|raw|tree)\/","\/",url)
             
     resarch = re.search(pattern_raw,raw)
     tag = resarch.group('tag') + '@' + resarch.group("author")#显示标签
