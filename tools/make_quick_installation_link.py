@@ -56,7 +56,7 @@ def Output(raw,tag = "Yuan's Selfuse Rewrite",opt_parser = "true",update_interva
             print('分流规则',end='')
         url = "https://quantumult.app/x/open-app/add-resource?remote-resource=" + quote(txt,encoding='utf-8')
     if markdown :
-        url =f'''|[{tag}]({url_origin})|[一键安装]({url})|'''
+        url =f'''[{tag}]({url_origin})|[一键安装]({url})|'''
     return url
 def main():
     raw = pyperclip.paste()       
