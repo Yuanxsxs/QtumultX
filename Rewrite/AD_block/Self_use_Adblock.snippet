@@ -1,4 +1,15 @@
 // SelfUseADBlock
-hostname = api.wmpvp.com
+hostname = api.wmpvp.com, orders.kfc.com.cn,dynamicad.kfc.com.cn,res.kfc.com.cn,3pp.starbucks.com.cn
 #完美世界电竞平台开屏 @豆豆
 ^https:\/\/api\.wmpvp\.com\/api\/v1\/config\/promote url reject
+
+#肯德基 微信小程序净化 @豆豆
+^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/coupon url reject-dict
+^https:\/\/dynamicad\.kfc\.com\.cn\/api url reject-dict
+^https:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v2\/wxapp url reject-dict
+^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/activity url reject-dict
+
+#星巴克 微信小程序净化
+^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/popup url reject-dict
+^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/banner url reject-dict
+^https:\/\/3pp\.starbucks\.com\.cn\/wxmem\/index\/global url reject-dict
