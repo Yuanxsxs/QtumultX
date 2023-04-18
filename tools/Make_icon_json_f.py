@@ -3,8 +3,9 @@ import requests,pyperclip
 from operate_picture import specialprint as sprint
 from make_quick_installation_link import Output as mqil_out
 from make_icon_json_l import author_self,file_name_remote_self,branch_self
-# url = input('请输入仓库链接(仅含有png的网页面):')
+
 url = "https://github.com/Centralmatrix3/Scripts-Rules/tree/Master/Matrix-icon/Color"
+url = input('请输入仓库链接(仅含有png的网页面):')
 ''' Example : https://github.com/Centralmatrix3/Scripts-Rules/tree/Master/Matrix-icon/Color'''
 _re = re.search('^https?:\/\/github.com\/(?P<author>.*?)\/(?P<repo>.*)\/tree\/(?P<branch>.*?)\/(?P<path>.*)',url)
 auth = _re.group('author') #作者
