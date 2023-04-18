@@ -2,9 +2,9 @@ import os ,tkinter as tk,re ,json,pyperclip
 from tkinter import filedialog 
 from PIL import Image
 from make_quick_installation_link import Output as mqil_out
-author           = 'Yuanxsxs'#Github的用户名
-file_name_remote = 'QtumultX'#Github的远程仓库名
-branch           = 'master' #分支名
+author_self           = 'Yuanxsxs'#Github的用户名
+file_name_remote_self = 'QtumultX'#Github的远程仓库名
+branch_self           = 'master' #分支名
 def dumpjson(path,cont,info = '文件录入成功',encodeing='utf-8'):
     '''将cont(cont 为 list 或 dict )转化为json并写入文件
     info 为提示词
@@ -70,14 +70,14 @@ def main():
         if fileout_f == None:
             continue
         fileout = re.search('\.\/(.*\..*)',fileout_f).group(1)#/Icon/XZKB/54cbcea52ad3b6be.png
-        raw = f'https://raw.githubusercontent.com/{author}/{file_name_remote}/{branch}/{fileout}'
+        raw = f'https://raw.githubusercontent.com/{author_self}/{file_name_remote_self}/{branch_self}/{fileout}'
         con = {"name": item,"url" : raw }
         icons.append(con)
-    description = f'Made by {author}'
+    description = f'Made by {author_self}'
     quanXicon = {"name":series_name,"description":description,"icons":icons}
     dumpjson(f'{folder}/{series_name}.json',quanXicon,'json文件已生成')
     folder_save = re.search('\.\/(.*)\/.*',folder).group(1)
-    jsonraw = f'https://raw.githubusercontent.com/{author}/{file_name_remote}/{branch}/{folder_save}/{series_name}.json'
+    jsonraw = f'https://raw.githubusercontent.com/{author_self}/{file_name_remote_self}/{branch_self}/{folder_save}/{series_name}.json'
     output = mqil_out(jsonraw)
     pyperclip.copy(output)
     print(f'一键安装链接:\n{output}\n已复制!两秒后自动关闭\n先 git push!\n先 git push!\n先 git push!')
